@@ -1,0 +1,122 @@
+
+body{
+    background: #ffcc99;
+}
+.blm_popup{
+    width: 600px;
+    height: 700px;
+    background: #0f2945;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left:0;
+    right:0;
+    margin: auto;
+}
+.blm_popup .pop-title {
+    width: 100%;
+    height: 20px;
+   
+    margin: 20px 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 101px;
+}
+.blm_row {
+    width: 65%;
+    min-height: 100px;
+   
+    margin: 15px auto;
+}
+.blm_row .top{
+    width: 100%;
+    min-height:25px;
+   
+    color: #485872;
+    font-size: 14px;
+}
+
+.blm_row .mid{
+    width: 100%;
+    min-height:50px;
+   
+    color: #c5e7ea;
+}
+.blm_row .bottom{
+    width: 100%;
+    min-height:25px;
+   
+    color: #485872;
+    font-size: 13px;
+}
+.input, .select select, .textarea {
+    background-color: #273e57;   
+    border-radius: 4px;
+    color: #ffffff;
+    outline: none;    
+    border:none;
+    width: 100%;
+}
+.select {
+   
+    width: 100%;
+}
+.selectStatic {
+    background-color: #273e57;
+    border-radius: 4px;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    width: 100%;
+    min-height: 50px;
+    line-height: 50px;
+    padding: 0 0 0 10px;
+    font-size: 20px;
+}
+
+i{
+    margin-right: 5px;
+}
+.coinLogo{
+    width:46px;
+    height: 46px;
+    background: url(./logo.png) no-repeat;
+    float: left;
+}
+.coinLogoText{
+    width:calc(100% - 46px);
+    height: 46px;
+    
+    float: left;
+}
+.coinLogoTextTop{
+    width:100%;
+    height: 25px;
+    line-height: 25px;    
+    float: left;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.coinLogoTextBottom{
+    width:100%;
+    height: 25px;
+    line-height: 25px;    
+    float: left;
+    font-size: 14px;
+    padding-left: 20px;
+}
+.closePopup {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    float: right;
+    color: #607284;
+    margin-right: 70px;
+    font-size: 30px;
+    font-weight: 100;
+}
+.mrr{
+    margin-right: 10px;
+}
